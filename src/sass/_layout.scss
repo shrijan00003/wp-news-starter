@@ -1,0 +1,9 @@
+//import google fonts
+@import url("https://fonts.googleapis.com/css?family=Lato|Mukta&subset=devanagari");
+* {
+  font-family: "Mukta", "Lato", sans-serif !important;
+}
+
+@import "./base/header";
+@import "./base/pagination";
+@import "./layout/category";

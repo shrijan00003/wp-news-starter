@@ -1,0 +1,94 @@
+//main navbar design
+#menu {
+  background-color: $primary;
+  margin: 0;
+  padding: 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    .active {
+      background: $secondary;
+    }
+    li {
+      padding: $padding * 0.8;
+      &:hover {
+        background: $secondary;
+      }
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+//menu icon
+.navbar-toggler-icon {
+  i {
+    color: $secondary;
+  }
+}
+
+// top featured news section
+.top-featured-title {
+  border-left: 2px solid $primary;
+  a.entry-title-link {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-decoration: none;
+  }
+}
+
+.top-featured-single-article {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.top-featured-excerpt {
+  font-size: 1.2rem;
+}
+
+//for testing purpose only
+.container {
+  min-width: 75% !important;
+  border: 1px dotted #dddddd;
+}
+
+// widget title style for the style one widget one by four
+.widget-title {
+  background-color: $primary;
+}
+.widget-title-style-one {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    66% 91%,
+    100% 8%,
+    100% 100%,
+    0 100%,
+    0% 80%,
+    0% 20%
+  );
+
+  background-color: $primary;
+  z-index: -1;
+  line-height: 1.5rem;
+  padding: 0.5rem;
+
+  span {
+    color: $white;
+    font-size: 2rem;
+  }
+}
+
+//stnewsportal-featured-posts-widget style one by four
+.stnewsportal-featured-post-big-title {
+  font-size: 1.5rem;
+}
+
+.stnewsportal-featured-post-small-title {
+  font-size: 1rem;
+}
+
+//for mediunm images
+.attachment-stnewsportal-featured-post-small {
+  max-width: 100px;
+  max-height: 100px;
+}

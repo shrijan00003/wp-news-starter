@@ -1,0 +1,20 @@
+// This layout is created for the sake of category.php file
+// For category Template
+.category-header {
+  background-color: lighten($primary, 40%);
+  border-radius: $border * 0.8;
+  margin: $margin 0;
+  .category-title {
+    font-size: 2rem;
+    padding: $padding $padding * 2;
+  }
+}
+
+//for each category posts
+.category-single-news-section {
+  margin: $margin * 3 0;
+  .category-single-post-thumbnail {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
